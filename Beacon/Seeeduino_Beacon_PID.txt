@@ -1,0 +1,5 @@
+seeed VID: 0x2886
+seeeduino Beacon PID: 
+
+bootloader PID: 0x0025
+code PID: 0x8025

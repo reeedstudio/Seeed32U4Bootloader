@@ -1,0 +1,5 @@
+seeed VID: 0x2886
+seeeduino Cloi PID: 
+
+bootloader PID: 0x0001
+code PID: 0x8001

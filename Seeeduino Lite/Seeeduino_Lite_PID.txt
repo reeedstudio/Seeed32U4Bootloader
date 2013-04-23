@@ -1,0 +1,5 @@
+seeed VID: 0x2886
+seeeduino Lite PID: 
+
+bootloader PID: 0x0002
+code PID: 0x8002

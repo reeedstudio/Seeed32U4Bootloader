@@ -1,0 +1,12 @@
+1. 修改bootloader源代码，Descriptors.c , 修改宏DEVICE_PID的值，并且到变量ProductString(大概在200行)添加上相应的条件编译以及相应的字符串。编译产生hex文件
+
+2. 修改.inf文件。 修改[DeviceList]和[DeviceList.NTamd64]中的PID和VID， 修改[Strings]中的相应字符串
+
+
+3. 修改boards文件（arduino-1.0.1-windows\arduino-1.0.1\hardware\arduino），模仿Leonardo,修改vid和pid
+
+4. 修改USBCore.cpp(arduino-1.0.1-windows\arduino-1.0.1\hardware\arduino\cores\arduino), 修改STRING_IPRODUCT和STRING_IMANUFACTURER字符串
+
+
+
+注： 这个文件夹下包含两个修改之后的boards.txt和USBCore.cpp，作为参考或者可以直接替换

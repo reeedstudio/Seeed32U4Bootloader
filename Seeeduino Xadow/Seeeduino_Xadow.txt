@@ -1,0 +1,5 @@
+seeed VID: 0x2886
+seeeduino Xadow PID: 
+
+bootloader PID: 0x0003
+code PID: 0x8003
