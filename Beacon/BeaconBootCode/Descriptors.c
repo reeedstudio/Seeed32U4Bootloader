@@ -207,7 +207,7 @@ const USB_Descriptor_String_t ProductString =
     #elif DEVICE_PID == 0x0002
     .UnicodeString          = L"Seeeduino Lite  "               // Seeeduino Lite
     #elif DEVICE_PID == 0x0025
-    .UnicodeString          = L"Seeeduino Beacon"               // Seeeduino Beacon
+    .UnicodeString          = L"Seeeduino Node  "               // Seeeduino Beacon
 	#else
 	.UnicodeString			= L"USB IO board    "
 	#endif

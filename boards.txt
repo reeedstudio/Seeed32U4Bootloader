@@ -209,24 +209,24 @@ Clio.build.variant=leonardo
 
 ##############################################################
 
-Beacon.name=Seeeduino Beacon
-Beacon.upload.protocol=avr109
-Beacon.upload.maximum_size=28672
-Beacon.upload.speed=57600
-Beacon.upload.disable_flushing=true
-Beacon.bootloader.low_fuses=0xff
-Beacon.bootloader.high_fuses=0xd8
-Beacon.bootloader.extended_fuses=0xcb
-Beacon.bootloader.path=caterina
-Beacon.bootloader.file=Caterina-Beacon.hex
-Beacon.bootloader.unlock_bits=0x3F
-Beacon.bootloader.lock_bits=0x2F
-Beacon.build.mcu=atmega32u4
-Beacon.build.f_cpu=16000000L
-Beacon.build.vid=0x2886
-Beacon.build.pid=0x8025
-Beacon.build.core=arduino
-Beacon.build.variant=leonardo
+Node.name=Seeeduino Node
+Node.upload.protocol=avr109
+Node.upload.maximum_size=28672
+Node.upload.speed=57600
+Node.upload.disable_flushing=true
+Node.bootloader.low_fuses=0xff
+Node.bootloader.high_fuses=0xd8
+Node.bootloader.extended_fuses=0xcb
+Node.bootloader.path=caterina
+Node.bootloader.file=Seeeduino-Node.hex
+Node.bootloader.unlock_bits=0x3F
+Node.bootloader.lock_bits=0x2F
+Node.build.mcu=atmega32u4
+Node.build.f_cpu=16000000L
+Node.build.vid=0x2886
+Node.build.pid=0x8025
+Node.build.core=arduino
+Node.build.variant=leonardo
 
 ##############################################################
 

@@ -60,7 +60,7 @@ const u16 STRING_IPRODUCT[17] = {
 #elif USB_PID == 0x8003														// Seeeduino Xadow
 	'S','e','e','e','d','u','i','n','o',' ','X','a','d','o','w',' '
 #elif USB_PID == 0x8025														// Seeeduino beacon
-    'S','e','e','e','d','u','i','n','o',' ','B','e','a','c','o','n'       
+    'S','e','e','e','d','u','i','n','o',' ','N','o','d','e',' ',' '       
 #else
 	'U','S','A',' ','I','O',' ','B','o','a','r','d','',' ',' ',' '
 #endif
